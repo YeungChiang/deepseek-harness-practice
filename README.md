@@ -15,13 +15,14 @@
 
 ## 课程进度
 
-本期组队学习范围为导读及前三章，按官方任务安排推进。
+本期组队学习范围为导读及前三章，共四个 Task，按官方任务安排推进。
 
 | Task | 主题 | 学习记录 | 状态 |
 | --- | --- | --- | --- |
 | **Task01** | 导读 + 第 1 章：建立坐标——为什么需要 Harness？ | [查看学习笔记](./task01/README.md) | **笔记已整理；教材逐页核对待完成** |
 | **Task02** | 第 2 章：从零开始运行 DSH | [查看学习笔记和实验方案](./task02/README.md) | **笔记已整理；实机对照与平台打卡待完成** |
 | **Task03** | 第 3 章：Preset、Scope、Host Plane / Agent Plane | [查看学习笔记、分层图与自测](./task03/README.md) | **已读教材；笔记整理完成，平台打卡待提交** |
+| **Task04** | Creative、Cordis Kernel 与前三章综合复盘 | [查看概念地图、短文与自测](./task04/README.md) | **已读教材；笔记整理完成，平台打卡待提交** |
 
 > 此表记录 **GitHub 笔记整理进度**，不代表 Datawhale 平台已经完成打卡。
 
@@ -29,13 +30,15 @@
 
 ```text
 deepseek-harness-practice/
-├── README.md           # 课程说明、学习索引与进度
-└── task01/
-    └── README.md       # Task01 学习笔记与打卡摘要
+├── README.md            # 课程说明、学习索引与进度
+├── task01/
+│   └── README.md        # Task01 为什么需要 Harness
 ├── task02/
-│   └── README.md       # Task02 学习笔记与待执行的对照实验
-└── task03/
-    └── README.md       # Task03 Scope、Preset、分层图与自测
+│   └── README.md        # Task02 Workspace、Model 与 Preset
+├── task03/
+│   └── README.md        # Task03 Host / Agent Plane、Scope
+└── task04/
+    └── README.md        # Task04 Creative、Kernel、概念地图与短文
 ```
 
 后续每个 Task 延续 `taskXX/README.md` 的结构；完成学习后再逐项添加，不预建空目录。
